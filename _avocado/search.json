@@ -12,6 +12,17 @@
     ,
   
     {
+      "category" : "work, projects",
+      "title"    : "Learn whatever222222",
+      "description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
+      "content": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
+      "url"      : "/blog/learn-whatever/",
+      "image"    : "/assets/images/perfecto-capucine-758998-unsplash.jpg",
+      "author"   : "john"
+    } 
+    ,
+  
+    {
       "category" : "work",
       "title"    : "Avocado Theme",
       "description": "Bored of the same old website designs? Avocado theme presents a unique way to...",

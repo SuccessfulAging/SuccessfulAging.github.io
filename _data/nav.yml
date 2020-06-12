@@ -5,7 +5,7 @@
   link: '/about/'
 
 - title: Press
-  link: '/press/'
+  link: '/blog/'
 
 - title: Publications
   link: '/publications/'
@@ -13,5 +13,3 @@
 - title: Contact
   link: '/contact/'
   
-- title: Blog
-  link: '/blog/'
