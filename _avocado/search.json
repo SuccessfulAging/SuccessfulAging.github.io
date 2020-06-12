@@ -1,6 +1,17 @@
 [
   
     {
+      "category" : "work, projects",
+      "title"    : "HOW TO MAKE PIKACHU HAPPY!",
+      "description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
+      "content": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
+      "url"      : "/blog/How-to-make-pikachu-happy/",
+      "image"    : "/assets/images/pika.jpg",
+      "author"   : "john"
+    } 
+    ,
+  
+    {
       "category" : "work",
       "title"    : "Avocado Theme",
       "description": "Bored of the same old website designs? Avocado theme presents a unique way to...",
