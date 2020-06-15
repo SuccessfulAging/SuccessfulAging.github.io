@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'publications'
-permalink: publications.html
+permalink: /publications/
 ---
 
 <button class="btn btn-primary">Featured Articles</button>
