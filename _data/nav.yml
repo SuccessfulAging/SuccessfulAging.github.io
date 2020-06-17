@@ -4,11 +4,11 @@
 - title: About
   link: '/about/'
 
-- title: Press
-  link: '/blog/'
-
 - title: Publications
   link: '/publications/'
+
+- title: Press
+  link: '/blog/'
 
 - title: Contact
   link: '/contact/'
