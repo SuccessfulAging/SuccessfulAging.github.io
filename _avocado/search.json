@@ -23,13 +23,13 @@
     ,
   
     {
-      "category" : "work, projects",
-      "title"    : "Learn whatever222222",
-      "description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
-      "content": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
-      "url"      : "/blog/learn-whatever/",
-      "image"    : "/assets/images/perfecto-capucine-758998-unsplash.jpg",
-      "author"   : "john"
+      "category" : "work, press",
+      "title"    : "KBS 명견만리 - 치매사회 생존법",
+      "description": "줄거리“치매라는 감옥에 갇혀 죽을 것인가 세상 밖으로 나갈 것인가”“Will you be locked up by ‘Dementia’ or ...",
+      "content": "줄거리“치매라는 감옥에 갇혀 죽을 것인가 세상 밖으로 나갈 것인가”“Will you be locked up by ‘Dementia’ or ...",
+      "url"      : "/blog/How-to-live-with-dementia/",
+      "image"    : "/assets/images/fpsyt_mainfig.jpg",
+      "author"   : "Narae Kim"
     } 
     ,
   
