@@ -26,11 +26,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This is an individual item from the portfolio." />
 <meta property="og:description" content="This is an individual item from the portfolio." />
-<link rel="canonical" href="http://localhost:4000/project00/" />
-<meta property="og:url" content="http://localhost:4000/project00/" />
+<link rel="canonical" href="http://localhost:4000/projects/portfolio/" />
+<meta property="og:url" content="http://localhost:4000/projects/portfolio/" />
 <meta property="og:site_name" content="RoSA" />
 <script type="application/ld+json">
-{"description":"This is an individual item from the portfolio.","author":{"@type":"Person","name":"John Doe"},"@type":"WebPage","url":"http://localhost:4000/project00/","headline":"Portfolio","@context":"https://schema.org"}</script>
+{"description":"This is an individual item from the portfolio.","author":{"@type":"Person","name":"John Doe"},"@type":"WebPage","url":"http://localhost:4000/projects/portfolio/","headline":"Portfolio","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -102,22 +102,31 @@ galite.UA = 'UA-92266803-2';
 				
 				<a class="nav-item nav-link " href="/">Home</a>
 				
-				<a class="nav-item nav-link " href="/about/">About</a>
-				
 				<a class="nav-item nav-link " href="/publications/">Publications</a>
 				
-				<a class="nav-item nav-link " href="/blog/">Press</a>
+				<a class="nav-item nav-link " href="/blog/">Highlights</a>
 				
 				<a class="nav-item nav-link " href="/contact/">Contact</a>
 				
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						ABOUT
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item nav-link" href="/about/aim/">AIM</a>
+						<a class="dropdown-item nav-link" href="/about/people/">PEOPLE</a>
+						<!-- <div class="dropdown-divider"></div>
+						<a class="dropdown-item nav-link" href="#">Something else here</a> -->
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Projects
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item nav-link" href="/portfolio/">Item</a>
-						<a class="dropdown-item nav-link" href="/project00/">Project00</a>
-						<a class="dropdown-item nav-link" href="/goldmedalproject/">Gold Medal Project</a>
+						<a class="dropdown-item nav-link" href="/projects/portfolio/">Item</a>
+						<a class="dropdown-item nav-link" href="/projects/project00/">Project00</a>
+						<a class="dropdown-item nav-link" href="/projects/goldmedalproject/">Gold Medal Project</a>
 						<!-- <div class="dropdown-divider"></div>
 						<a class="dropdown-item nav-link" href="#">Something else here</a> -->
 					</div>
@@ -142,7 +151,11 @@ Making any change will effect all the pages(not posts) -->
 	<li><a href="/">Home</a></li>
 	
 	
-	<li><a href="#">Project00</a></li>
+	<li><a href="/projects/">Projects</a></li>
+	
+	
+	
+	<li><a href="#">Portfolio</a></li>
 	
 	
 </ul>
@@ -161,12 +174,55 @@ Making any change will effect all the pages(not posts) -->
 		<img src="/assets/images/portfolio/icons8-team-643494-unsplash.jpg" alt="Portfolio">
 	</div>
 	<div class="col-md-5 details">
-		<h1 class="double-u">Project00</h1>
-		<p>ABCDEFGHIJKLMLOPQRSTUVWXYZ. ABCDEFGHIJKLMLOPQRSTUVWXYZ. ABCDEFGHIJKLMLOPQRSTUVWXYZ.</p>
-		<p>ABCDEFGHIJKLMLOPQRSTUVWXYZ. ABCDEFGHIJKLMLOPQRSTUVWXYZ. ABCDEFGHIJKLMLOPQRSTUVWXYZ.</p>
+		<h1 class="double-u">Project Title</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ipsa eius voluptatibus quia natus magnam suscipit vero et perspiciatis a excepturi nihil quas saepe beatae omnis, debitis est, ipsum non. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa atque doloribus, quae natus repellat nobis dolorem est velit similique nesciunt, corporis praesentium necessitatibus eos enim itaque cumque soluta accusamus quisquam.</p>
 		<p><strong>Client:</strong><span> Fruit Market</span></p>
 		<p><strong>Date:</strong><span> Jun 2020</span></p>
 	</div>
+
+<iframe class="video" src="https://www.youtube.com/embed/YE7VzlLtp-4"></iframe>
+
+	<canvas id="myChart" width="400" height="200"></canvas>
+	<script>
+	var ctx = document.getElementById("myChart");
+	var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        datasets: [{
+            label: 'Colors',
+            data: [6, 5, 4, 3, 2, 1],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+	});
+	</script>
 
 </div>	
 					</article>
@@ -200,11 +256,9 @@ Making any change will effect all the pages(not posts) -->
           
           <li><a href="/">Home</a></li>
           
-          <li><a href="/about/">About</a></li>
-          
           <li><a href="/publications/">Publications</a></li>
           
-          <li><a href="/blog/">Press</a></li>
+          <li><a href="/blog/">Highlights</a></li>
           
           <li><a href="/contact/">Contact</a></li>
           

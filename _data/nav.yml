@@ -1,13 +1,10 @@
 - title: Home
   link: '/'
-  
-- title: About
-  link: '/about/'
 
 - title: Publications
   link: '/publications/'
 
-- title: Press
+- title: Highlights
   link: '/blog/'
 
 - title: Contact
