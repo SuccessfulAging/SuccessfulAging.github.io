@@ -9,4 +9,20 @@
 
 - title: Contact
   link: '/contact/'
+
+- title: ABOUT
+  dropdown:
+    - title: ROSA
+      link: /about/rosa/
+    - title: PEOPLE
+      link: /about/people/
+
+- title: Projects
+  dropdown:
+    - title: portfolio
+      link: /projects/portfolio/
+    - title: Project00
+      link: /projects/project00/
+    - title: Gold Medal Project
+      link: /projects/goldmedalproject/
   
