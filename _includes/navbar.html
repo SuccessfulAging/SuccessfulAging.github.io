@@ -9,31 +9,22 @@
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
 				{% for item in site.data.nav %}
-				<a class="nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+				{% if item.dropdown %}
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								{{item.title}}
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								{% for i in item.dropdown %}
+									<a class="dropdown-item nav-link" href="{{i.link}}">{{i.title}}</a>
+								{% endfor %}
+							</div>
+						</li>
+					{% else %}
+					<a class="nav-item nav-link {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+					{% endif %}
 				{% endfor %}
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						ABOUT
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item nav-link" href="/about/rosa/">ROSA</a>
-						<a class="dropdown-item nav-link" href="/about/people/">PEOPLE</a>
-						<!-- <div class="dropdown-divider"></div>
-						<a class="dropdown-item nav-link" href="#">Something else here</a> -->
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Projects
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item nav-link" href="/projects/portfolio/">portfolio</a>
-						<a class="dropdown-item nav-link" href="/projects/project00/">Project00</a>
-						<a class="dropdown-item nav-link" href="/projects/goldmedalproject/">Gold Medal Project</a>
-						<!-- <div class="dropdown-divider"></div>
-						<a class="dropdown-item nav-link" href="#">Something else here</a> -->
-					</div>
-				</li>
+				
 				
 			</div>
 		</div>
